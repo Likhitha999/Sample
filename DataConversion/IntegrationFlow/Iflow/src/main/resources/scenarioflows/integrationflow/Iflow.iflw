@@ -361,7 +361,7 @@
             <bpmn2:incoming>SequenceFlow_5</bpmn2:incoming>
             <bpmn2:messageEventDefinition/>
         </bpmn2:endEvent>
-        <bpmn2:callActivity id="CallActivity_4" name="Content Modifier 9">
+        <bpmn2:callActivity id="CallActivity_4" name="Content Modifier 7">
             <bpmn2:extensionElements>
                 <ifl:property>
                     <key>bodyType</key>
