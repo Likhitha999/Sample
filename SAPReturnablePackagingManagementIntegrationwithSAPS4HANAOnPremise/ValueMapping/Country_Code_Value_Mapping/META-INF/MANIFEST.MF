@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: Country_Code_Value_Mapping
+Bundle-ManifestVersion: 2
+Origin-Bundle-SymbolicName: Country_Code_Value_Mapping
+Origin-Bundle-Version: 1.0.0
+Import-Package: com.sap.xi.mapping.camel.valmap
+Origin-Bundle-Name: Country Code Value Mapping
+Bundle-Name: Country Code Value Mapping
+Bundle-Version: 1.0.0
+Bundle-Activator: com.sap.xi.mapping.camel.valmap.ValueMappingActivator
+SAP-NodeType: IFLMAP
+Origin-ModifiedDate: 1724865456543
+SAP-BundleType: ValueMapping
+

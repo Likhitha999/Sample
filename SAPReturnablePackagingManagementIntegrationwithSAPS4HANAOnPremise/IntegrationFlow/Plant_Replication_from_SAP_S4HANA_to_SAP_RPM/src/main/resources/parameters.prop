@@ -1,0 +1,9 @@
+#Fri Aug 30 07:19:16 UTC 2024
+exception=true
+authorization=RoleBased
+address=/PlantReplication
+role=ESBMessaging.send
+credentials=Specify OAuth2 Client Credentials
+Application\ Host\ URL=https\://<host>
+timeout=900000
+authentication=OAuth2 Client Credentials

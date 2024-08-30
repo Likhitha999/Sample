@@ -1,0 +1,9 @@
+#Fri Aug 30 07:19:16 UTC 2024
+authorization=RoleBased
+Credential=Specify OAuth2 Client Credentials
+role=ESBMessaging.send
+bp_address=/BusinessPartnerReplication
+Timeout=900000
+Authentication=OAuth2 Client Credentials
+Application\ Host\ URL=https\://<host>
+Exception=true
