@@ -1,0 +1,11 @@
+#Fri Aug 30 12:12:36 UTC 2024
+CPQ_AuthenticationType=None
+BusinessPartnerReplication_PostProcessingRequest=
+Private\ Key\ Alias=
+BP_Replication_Address=
+UserRole=ESBMessaging.send
+SAP\ CPQ\ Host=
+Post\ Processing\ Extension\ Enabled=false
+CPQ_Domain=
+CPQCredentials=
+S4_Auth=RoleBased

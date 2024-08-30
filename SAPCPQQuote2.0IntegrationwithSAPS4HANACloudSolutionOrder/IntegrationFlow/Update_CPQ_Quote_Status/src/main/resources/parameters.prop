@@ -1,0 +1,25 @@
+#Fri Aug 30 12:12:37 UTC 2024
+PrivateKeyAlias=
+EMS_Port=443
+CPQ_StatusID_OrderPlaced=
+EMS\ Retry\ Queue\ Name=
+CPQCredentials=
+CPQ_StatusID_OrderCreatedWithErrors=
+CPQ_Host=
+S4HANA_Cloud_Tenant=
+EMS\ Retry\ Expiration\ Periond\ in\ s=30
+CPQ_HTTP_Timeout=300000
+CPQ_Domain=
+CPQ_Credentials=
+CPQ_AuthenticationType=None
+SAP\ CPQ\ Host=
+EMS_Path=
+EMS_Credentials=
+MaximumRetries=5
+EMS_Host=
+EMS_Number_Of_Concurrent_Processes=1
+S4HANA_Authentication=
+S4HANA_Private_Key_Alias=
+CPQ_Private_Key_Alias=
+S4HANA_Credentials=
+EMS_Queue_Name=

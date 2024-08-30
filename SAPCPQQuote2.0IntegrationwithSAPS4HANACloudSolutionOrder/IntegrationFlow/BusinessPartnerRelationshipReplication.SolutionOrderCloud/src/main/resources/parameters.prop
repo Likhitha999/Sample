@@ -1,0 +1,19 @@
+#Fri Aug 30 12:12:36 UTC 2024
+CPQ_AuthenticationType=
+Address=
+CPQ\ Credentials=
+SAP\ CPQ\ Host=
+SOAP\ Replication\ Authorization=RoleBased
+SOAP\ Replication\ UserRole=ESBMessaging.send
+SOAP_Replication_UserRole=ESBMessaging.send
+SOAP_Replication_Authorization=RoleBased
+Post\ Processing\ Extension\ Enabled=false
+BPRelationshipReplication_SOAP_Address=
+SOAP\ Replication\ Address=
+CPQ\ Authentication\ Type=
+SAP\ CPQ\ Token\ Private\ Key\ Alias=
+CPQ\ Domain=
+SAP\ CPQ\ Access\ Token\ Authentication=None
+CPQ_Domain=
+PostExit_Address=
+SOAP_Replication_Address=

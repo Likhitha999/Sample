@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Fri Aug 30 12:12:36 UTC 2024
+description=Business Partner replication from SAP S4HANA Cloud to Master Data Integration for Solution Order
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+source=SAPS4HANA
+target=SAPCPQ

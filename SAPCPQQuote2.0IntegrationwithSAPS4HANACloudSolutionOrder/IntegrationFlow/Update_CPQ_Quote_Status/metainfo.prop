@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Fri Aug 30 12:12:37 UTC 2024
+description=Update SAP CPQ Quote Status from SAP S4HANA Cloud Solution Order
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+source=SAPS4HANA
+target=SAPCPQ

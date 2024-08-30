@@ -1,0 +1,19 @@
+#Fri Aug 30 12:12:37 UTC 2024
+Logging=false
+CPQ_AuthenticationType=None
+S4-CPQ-MaterialReplicationPostExit=
+S4_Material_address=
+Issuer=
+subject=
+TimeOut=60000
+PrivateKeyAlias=
+SAP\ CPQ\ Host=
+ChunkingAllowed=1
+Extension\ Implemented=false
+CPQCredentials=
+UserRole=ESBMessaging.send
+pv-key-alias=
+ProxyType=default
+CPQ_Domain=
+category=SAP_CLOUD_CATEGORY
+S4_Auth=RoleBased

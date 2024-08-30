@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Fri Aug 30 12:12:36 UTC 2024
+description=Replication of quotes from SAP CPQ Quote 2.0 engine to SAP S4HANA Cloud Solution Order using the configuration data obtained via SAP CPQ Configuration API.
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+source=SAPEventMesh
+target=SAPS4HANA

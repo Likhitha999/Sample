@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><projectDescription>
+ <name>Replicate_Business_Partner_from_SAP_Master_Data_Integration_for_S4HANA_Cloud_Solution_Order</name>
+ <comment/>
+ <projects/>
+ <buildSpec>
+  <buildCommand>
+   <name>org.eclipse.jdt.core.javabuilder</name>
+   <arguments/>
+  </buildCommand>
+ </buildSpec>
+ <natures>
+  <nature>org.eclipse.jdt.core.javanature</nature>
+  <nature>com.sap.ide.ifl.project.support.project.nature</nature>
+  <nature>com.sap.ide.ifl.bsn</nature>
+ </natures>
+</projectDescription>
