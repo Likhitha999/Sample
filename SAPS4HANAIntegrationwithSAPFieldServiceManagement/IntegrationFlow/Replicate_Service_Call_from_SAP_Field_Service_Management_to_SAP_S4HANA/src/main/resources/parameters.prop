@@ -1,0 +1,27 @@
+#Fri Aug 30 12:18:56 UTC 2024
+Service\ Order\ Note\ Language=EN
+Send_Email_Notification=/S4HANACE/FSM/Send_Email_Notification
+FSM\ Host=https\://<cluster.coresuite.com>
+Service\ Order\ Header\ Note\ Type=S002
+Proxy\ Type=sapcc
+FSM\ HTTP\ Timeout=60000
+FSM\ Company\ ID=&lt;FSM_Company_ID&gt;
+Location\ ID=<Location_ID>
+Service\ Order\ Header\ Problem\ Description\ Type=S001
+FSM\ Company\ Name=&lt;FSM Company Name&gt;
+CreateServiceOrderOdataTimer=1
+ReuseConnection=true
+FSM\ Account\ ID=&lt;FSM_Account_ID&gt;
+address=/FSM/S4HANA/Replicate_ServiceCall
+Client\ Id=<Client_ID>
+Credential\ Name=<SAP S/4HANA Credential Name>
+S4HANA\ Host=http\://<host>\:<port>/
+FSM\ User=&lt;FSM User&gt;
+FSM\ Account\ Name=&lt;FSM Account Name&gt;
+Private\ Key\ Alias=
+Authentication=Basic
+Error\ Log\ Attachments=true
+Error\ Email\ Notification=false
+Post\ Mapping\ Extension\ Address=/
+FSM\ Credentials=<FSM Credentials>
+Post\ Mapping\ Extension\ Enabled=false

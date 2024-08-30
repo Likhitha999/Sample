@@ -1,0 +1,4 @@
+#Store metainfo properties
+#Fri Aug 30 12:18:55 UTC 2024
+description=Send an email about an integration flow exception in the integration of SAP S/4HANA with SAP Field Service Management
+source=SAPCloudPlatformIntegrationSuite

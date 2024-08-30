@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Fri Aug 30 12:18:56 UTC 2024
+description=Create a service order in SAP S/4HANA once a service call has been created in SAP Field Service Management
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+source=SAPFieldServiceManagement
+target=SAPS4HANA

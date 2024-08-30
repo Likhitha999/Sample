@@ -1,0 +1,21 @@
+#Fri Aug 30 12:18:56 UTC 2024
+Account=<FSM_Account>
+ErrorEmailNotification=false
+Enable\ pre-exit=false
+Company=<FSM_Company>
+Address=/S4/FSM/Business_Partner_Relationships
+Timeout=60000
+Delete_TimeOut=60000
+Credential\ Name=<FSM Credential Name>
+Enable\ post-exit=false
+ErrorLogAttachments=true
+Addresss_Create_Contact=https\://<*.coresuite.com/api/data/v4/Contact/externalId/bulk>
+Authorization=RoleBased
+Issuer_DN=&lt;Issuer_Distinguished_Name&gt;
+Delete_Request_Headers=*
+User_Role=ESBMessaging.send
+Pre-exit\ integration\ flow\ endpoint=/createBPRelationship/preexit
+Subject_DN=&lt;Subject_Distinguished_Name&gt;
+DTO=Contact.16
+Post-exit\ integration\ flow\ endpoint=/createBPRelationship/postexit
+Exception\ handling\ iflow\ endpoint=/S4HANAOP/FSM/Send_Email_Notification

@@ -1,0 +1,20 @@
+#Fri Aug 30 12:18:55 UTC 2024
+Email\ Server\ Address=<SMTP_host\:port>
+Secret\ Key\ Length=128
+Email\ Authentication\ Method=loginPlain
+Email\ Content\ Encryption\ Algorithm=aes
+Email\ Credentials\ for\ OAuth2=
+Email\ Signature\ Private\ Key\ Alias=&lt;Email Signature Private Key Alias&gt;
+Email\ Subject=<Email Subject>
+Email\ Sender=<email_from@email.com>
+Email\ Protection=starttls_mandatory
+Email\ Credentials\ for\ User\ Password=<Email Credentials>
+Email\ Receiver=<email_to@email.com>
+Email\ Signature\ and\ Encryption\ Type=none
+Email\ Connection\ Location\ ID=
+Email\ Receiver\ Bcc=
+Email\ Receiver\ Public\ Key=&lt;Email Receiver Public Key&gt;
+Email\ Timeout=30000
+Email\ Send\ Clear\ Text\ Signed\ Message=1
+Email\ Proxy\ Type=none
+Email\ Receiver\ Cc=

@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Fri Aug 30 12:18:55 UTC 2024
+description=Update warehouse owner in SAP Field Service Management periodically from SAP S/4HANA
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+source=SAPS4HANA
+target=SAPFieldServiceManagement

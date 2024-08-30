@@ -1,0 +1,15 @@
+#Fri Aug 30 12:18:52 UTC 2024
+Account=<FSM_Account>
+Company=<FSM_Company>
+ErrorEmailNotification=false
+Enable\ pre-exit=false
+Address_for_Creating_BP_Contact=https\://<cluster>.coresuite.com/api/data/v4/Contact/externalId/bulk
+Address=/Forward_S4HANA_Business_Partner_for_Contact_Replication
+Timeout=60000
+Credential\ Name=<FSM_Token>
+Enable\ post-exit=false
+ErrorLogAttachments=true
+Pre-exit\ integration\ iflow\ endpoint=/replicateContact/preexit
+Address_of_Exception_Iflow=/S4HANAOP/FSM/Send_Email_Notification
+DTO=Contact.16
+Post-exit\ integration\ flow\ endpoint=/replicateContact/postexit

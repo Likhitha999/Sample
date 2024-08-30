@@ -1,0 +1,15 @@
+#Fri Aug 30 12:18:54 UTC 2024
+Account=<FSM_Account>
+Company=<FSM Company>
+ErrorEmailNotification=false
+Enable\ pre-exit=false
+Address=/Forward_S4HANA_Business_Partner_for_Address_Replication
+Timeout=60000
+Address_for_Creating_Address=https\://<cluster>.coresuite.com/api/data/v4/Address/externalId/bulk
+Credential\ Name=<FSM_Token>
+Enable\ post-exit=false
+ErrorLogAttachments=true
+Pre-exit\ integration\ flow\ endpoint=/replicateBPAddress/preexit
+DTO=Address.18
+Post-exit\ integration\ flow\ endpoint=/replicateBPAddress/postexit
+Exception\ handling\ iflow\ endpoint=/S4HANAOP/FSM/Send_Email_Notification

@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Fri Aug 30 12:18:54 UTC 2024
+description=Replicate attachments from SAP Field Service Management activities and service calls to SAP S/4HANA
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+source=SAPFieldServiceManagement
+target=SAPS4HANA

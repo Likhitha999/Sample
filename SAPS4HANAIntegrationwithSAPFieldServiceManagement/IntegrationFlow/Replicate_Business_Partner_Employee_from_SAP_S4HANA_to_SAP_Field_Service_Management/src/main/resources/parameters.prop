@@ -1,0 +1,17 @@
+#Fri Aug 30 12:18:53 UTC 2024
+Account=<FSM_Account>
+Company=<FSM_Company>
+ErrorEmailNotification=false
+Enable\ pre-exit=false
+Timeout=60000
+Credential\ Name=<FSM_Token>
+IDType\ for\ User\ Name=HCM001
+Address_To_Forward_Exception_Payload=/S4HANAOP/FSM/Send_Email_Notification
+Enable\ post-exit=false
+UnifiedPersonDTO=UnifiedPerson.11
+ErrorLogAttachments=true
+Address_To_Forward_Employee_Address_Payload=/Forward_S4HANA_Business_Partner_for_Address_Replication
+URL_for_Creating_Employee=https\://<cluster>.coresuite.com/api/data/v4/UnifiedPerson/externalId/bulk
+Pre-exit\ integration\ flow\ endpoint=/replicateEmployee/preExit
+ProcessDirectForBPEmployee=/Forward_S4HANA_Business_Partner_for_Employee_Replication
+Post-exit\ integration\ flow\ endpoint=/replicateEmployee/postExit

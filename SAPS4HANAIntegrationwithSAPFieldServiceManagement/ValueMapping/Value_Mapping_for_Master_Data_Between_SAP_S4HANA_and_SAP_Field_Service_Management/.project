@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><projectDescription>
+   <name>Value_Mapping_for_Master_Data_Between_SAP_S4HANA_and_SAP_Field_Service_Management</name>
+   <comment/>
+   <projects/>
+   <buildSpec>
+      <buildCommand>
+         <name>org.eclipse.jdt.core.javabuilder</name>
+         <arguments/>
+      </buildCommand>
+   </buildSpec>
+   <natures>
+      <nature>org.eclipse.jdt.core.javanature</nature>
+      <nature>com.sap.ide.ifl.project.support.project.nature</nature>
+      <nature>com.sap.ide.ifl.valmap</nature>
+   </natures>
+</projectDescription>

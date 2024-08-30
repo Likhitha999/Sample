@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Fri Aug 30 12:18:52 UTC 2024
+description=Create confirmations in SAP S/4HANA once efforts, expenses, material, or mileage have been approved
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+source=SAPFieldServiceManagement
+target=SAPS4HANA

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters><parameter>
+    <key/>
+    <name>Client Id</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Send_Email_Notification</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Proxy Type</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Host</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>FSM Host</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>User Role</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Credentials</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>FSM Company ID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>FSM Account Name</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Endpoint</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>FSM Company Name</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Private Key Alias</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Error Log Attachments</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Authentication</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Error Email Notification</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>S4HANA Location ID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>FSM Account ID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>FSM Credentials</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><param_references><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="S4HANA Authentication"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::locationID" attribute_uilabel="Location ID" param_key="S4HANA Location ID"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="S4HANA Proxy Type"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressQuery" attribute_uilabel="Query" param_key="Client Id"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::credentialName" attribute_uilabel="Credential Name" param_key="S4HANA Credentials"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="S4HANA Host"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="S4HANA Authentication"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::locationID" attribute_uilabel="Location ID" param_key="S4HANA Location ID"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="S4HANA Proxy Type"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressQuery" attribute_uilabel="Query" param_key="Client Id"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::credentialName" attribute_uilabel="Credential Name" param_key="S4HANA Credentials"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="S4HANA Host"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="S4HANA Authentication"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::locationID" attribute_uilabel="Location ID" param_key="S4HANA Location ID"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="S4HANA Proxy Type"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressQuery" attribute_uilabel="Query" param_key="Client Id"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::credentialName" attribute_uilabel="Credential Name" param_key="S4HANA Credentials"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="S4HANA Host"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="S4HANA Authentication"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::locationID" attribute_uilabel="Location ID" param_key="S4HANA Location ID"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="S4HANA Proxy Type"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressQuery" attribute_uilabel="Query" param_key="Client Id"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::credentialName" attribute_uilabel="Credential Name" param_key="S4HANA Credentials"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="S4HANA Host"/><reference attribute_category="Send_Email" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="Send_Email_Notification"/><reference attribute_category="FSM" attribute_id="/attrId::userRole" attribute_uilabel="" param_key="User Role"/><reference attribute_category="FSM" attribute_id="/attrId::urlPath" attribute_uilabel="" param_key="Endpoint"/><reference attribute_category="FSM_Attachment.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::credentialName" attribute_uilabel="Credential Name" param_key="FSM Credentials"/><reference attribute_category="FSM_Attachment" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="FSM Host"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="S4HANA Authentication"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::locationID" attribute_uilabel="Location ID" param_key="S4HANA Location ID"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="S4HANA Proxy Type"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressQuery" attribute_uilabel="Query" param_key="Client Id"/><reference attribute_category="S4Hana.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::credentialName" attribute_uilabel="Credential Name" param_key="S4HANA Credentials"/><reference attribute_category="S4Hana" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.15.0/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="S4HANA Host"/></param_references></parameters>

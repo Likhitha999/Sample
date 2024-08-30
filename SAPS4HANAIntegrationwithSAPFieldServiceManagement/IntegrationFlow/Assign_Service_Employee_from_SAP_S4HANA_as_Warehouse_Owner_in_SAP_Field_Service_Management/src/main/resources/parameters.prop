@@ -1,0 +1,31 @@
+#Fri Aug 30 12:18:55 UTC 2024
+Account=<FSM_Account>
+Company=<FSM_Company>
+SAP\ Client=&lt;SAP_Client&gt;
+Warehouse\ ExternalID\ Delimiter=/
+AuthenticationMethod=Basic
+Enable\ Post\ Exit=false
+CSRF_Protected=true
+S4\ Address=http\://<host>\:<port>/sap/opu/odata4/sap/api_plntstorlocbysrvcorg/srvd_a2x/sap/plntstorlocbysrvcorg/0001/
+Email\ Error\ Notification=false
+ReuseConnection=true
+RequestHeaders=*
+Reuse\ connection=true
+PostExitEndpoint=/warehouseOwner/postexit
+Enable\ Pre\ Exit=false
+Data\ Records\ per\ FSM\ Bulk\ Call=100
+Timeout=60000
+CredentialName=<S4_Credential>
+Update\ Warehouse\ Owner\ Address=https\://<<cluster>>.coresuite.com/api/data/v4/Warehouse/externalId/bulk
+PreExitEndpoint=/warehouseOwner/preexit
+Credential\ Name=<FSM_Token>
+Warehouse\ Delimiter\ Name=/
+ResponseHeaders=*
+Address_To_Forward_Exception_Payload=/S4HANAOP/FSM/Send_Email_Notification
+Start\ Scheduler=<row><cell>dateType</cell><cell></cell></row><row><cell>timeType</cell><cell></cell></row><row><cell>dayValue</cell><cell></cell></row><row><cell>monthValue</cell><cell></cell></row><row><cell>yearValue</cell><cell></cell></row><row><cell>onWeekly</cell><cell></cell></row><row><cell>onMonthly</cell><cell></cell></row><row><cell>OnEveryMinute</cell><cell></cell></row><row><cell>fromInterval</cell><cell></cell></row><row><cell>toInterval</cell><cell></cell></row><row><cell>timeZone</cell><cell>( UTC 0\:00 ) Greenwich Mean Time(Etc/GMT)</cell></row><row><cell>secondValue</cell><cell>0</cell></row><row><cell>minutesValue</cell><cell></cell></row><row><cell>hourValue</cell><cell></cell></row><row><cell>triggerType</cell><cell>simple</cell></row><row><cell>noOfSchedules</cell><cell>1</cell></row><row><cell>schedule1</cell><cell>fireNow\=true</cell></row>
+S4_Timeout=1
+Log\ Attachments\ on\ Error=true
+proxy=sapcc
+locationID=<Location_ID>
+Request\ Headers=*
+DTO=Warehouse.15

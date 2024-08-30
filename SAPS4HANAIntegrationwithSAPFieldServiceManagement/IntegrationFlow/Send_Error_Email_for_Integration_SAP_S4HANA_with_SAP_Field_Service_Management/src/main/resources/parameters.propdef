@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><parameters><parameter>
+      <key/>
+      <name>Email Server Address</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Secret Key Length</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>true</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Email Authentication Method</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>true</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Email Content Encryption Algorithm</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>true</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Email Credentials for OAuth2</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Signature Private Key Alias</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Subject</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Sender</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Protection</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>true</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Email Credentials for User Password</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Receiver</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Signature and Encryption Type</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>true</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Email Connection Location ID</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Receiver Bcc</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Timeout</name>
+      <type>xsd:integer</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Receiver Public Key</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Email Send Clear Text Signed Message</name>
+      <type>xsd:boolean</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>false</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Email Proxy Type</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>true</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Email Receiver Cc</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><param_references><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::cc" attribute_uilabel="Cc" param_key="Email Receiver Cc"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::server" attribute_uilabel="Address" param_key="Email Server Address"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::bcc" attribute_uilabel="Bcc" param_key="Email Receiver Bcc"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::auth" attribute_uilabel="Authentication" param_key="Email Authentication Method"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::subject" attribute_uilabel="Subject" param_key="Email Subject"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::encrypt.smime.aes.keysize" attribute_uilabel="Secret Key Length" param_key="Secret Key Length"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="Email Proxy Type"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::ssl" attribute_uilabel="Protection" param_key="Email Protection"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::timeout" attribute_uilabel="Timeout (in ms)" param_key="Email Timeout"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::signature.smime.clearText" attribute_uilabel="Send Clear Text Signed Message" param_key="Email Send Clear Text Signed Message"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::locationId" attribute_uilabel="Location ID" param_key="Email Connection Location ID"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::encrypt.type" attribute_uilabel="Signature and Encryption Type" param_key="Email Signature and Encryption Type"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::encrypt.smime.algorithm" attribute_uilabel="Content Encryption Algorithm" param_key="Email Content Encryption Algorithm"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::signature.smime.table" attribute_uilabel="Signer Parameters:" param_key="Email Signature Private Key Alias"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::from" attribute_uilabel="From" param_key="Email Sender"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::tokenCredential" attribute_uilabel="Credential Name" param_key="Email Credentials for OAuth2"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::to" attribute_uilabel="To" param_key="Email Receiver"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::encrypt.smime.keys" attribute_uilabel="Receiver Public Key" param_key="Email Receiver Public Key"/><reference attribute_category="Email_Receiver" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::user" attribute_uilabel="Credential Name" param_key="Email Credentials for User Password"/></param_references></parameters>

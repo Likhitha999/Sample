@@ -1,0 +1,17 @@
+#Fri Aug 30 12:18:51 UTC 2024
+Account=<FSM_Account>
+Company=<FSM_Company>
+ErrorEmailNotification=false
+Address=/S4/FSM/ItemGroup
+Credential\ Name=<FSM_Token>
+Addresss_Create_Item_Group=https\://<cluster>.coresuite.com/api/data/v4/ItemGroup/externalId/bulk
+ErrorLogAttachments=true
+Authorization=RoleBased
+Issuer_DN=&lt;Issuer_Distinguished_Name&gt;
+User_Role=ESBMessaging.send
+Enable_Post_Exit=false
+Pre-exit\ integration\ flow\ endpoint=/replicateItemGroup/preexit
+Subject_DN=&lt;Subject_Distinguished_Name&gt;
+Enable_Pre_Exit=false
+Post-exit\ integration\ flow\ endpoint=/replicateItemGroup/postexit
+Exception\ handling\ iflow\ endpoint=/S4HANAOP/FSM/Send_Email_Notification

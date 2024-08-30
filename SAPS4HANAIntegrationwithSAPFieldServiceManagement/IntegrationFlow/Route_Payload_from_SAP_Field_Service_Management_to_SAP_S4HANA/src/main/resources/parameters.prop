@@ -1,0 +1,12 @@
+#Fri Aug 30 12:18:55 UTC 2024
+ProcessDirectSODuplicateAct=/Update_S4HANA_ServiceOrder_for_Duplicate_Activity
+Address\ Create\ Service\ Order=/FSM/S4HANA/Replicate_ServiceCall
+Consider\ HTTP\ 409\ as\ Locking\ Issue=false
+Address=/connector
+Service\ Call\ Status\ Used\ in\ Replication=-2|-5
+Send_Email_Notification=/S4HANAOP/FSM/Send_Email_Notification
+Error\ Email\ Notification=false
+Error\ Log\ Attachments=true
+ProcessDirectServiceOrder=/ServiceOrder
+User\ Role=ESBMessaging.send
+ProcessDirectServiceConfirmation=/ServiceConfirmation

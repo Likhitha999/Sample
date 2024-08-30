@@ -1,0 +1,19 @@
+#Fri Aug 30 12:18:54 UTC 2024
+Client\ Id=<ClientID>
+Send_Email_Notification=/S4HANAOP/FSM/Send_Email_Notification
+S4HANA\ Proxy\ Type=sapcc
+S4HANA\ Host=http\://<S4Host-S4Port>
+FSM\ Host=https\://<cluster.coresuite.com>
+User\ Role=ESBMessaging.send
+S4HANA\ Credentials=<SAP S/4HANA Credential Name>
+FSM\ Company\ ID=&lt;FSM_Company_ID&gt;
+FSM\ Account\ Name=&lt;FSM Account Name&gt;
+Endpoint=/FSM/S4HANAOP/Replicate_SC_Attachments
+FSM\ Company\ Name=&lt;FSM Company Name&gt;
+Private\ Key\ Alias=
+Error\ Log\ Attachments=true
+S4HANA\ Authentication=Basic
+Error\ Email\ Notification=false
+S4HANA\ Location\ ID=<Location_ID>
+FSM\ Account\ ID=&lt;FSM_Account_ID&gt;
+FSM\ Credentials=<FSM Credentials>

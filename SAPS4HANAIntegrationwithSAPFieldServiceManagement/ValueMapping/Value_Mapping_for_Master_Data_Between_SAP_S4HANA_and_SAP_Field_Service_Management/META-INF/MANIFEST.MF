@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: Value_Mapping_for_Master_Data_Between_SAP_S4HANA_an
+ d_SAP_Field_Service_Management; singleton:=true
+Bundle-ManifestVersion: 2
+Origin-Bundle-SymbolicName: Value_Mapping_for_Master_Data_Between_SAP_S4
+ HANA_and_SAP_Field_Service_Management
+SAP-ArtifactTrait: 
+Origin-Bundle-Version: 1.3.2
+Import-Package: com.sap.xi.mapping.camel.valmap
+Origin-Bundle-Name: Value Mapping for Master Data Between SAP S/4HANA an
+ d SAP Field Service Management
+Bundle-Name: Value Mapping for Master Data Between SAP S/4HANA and SAP F
+ ield Service Management
+Bundle-Version: 1.3.2
+Bundle-Activator: com.sap.xi.mapping.camel.valmap.ValueMappingActivator
+SAP-NodeType: IFLMAP
+Origin-ModifiedDate: 1709132958320
+SAP-BundleType: ValueMapping
+Import-Service: 
+
