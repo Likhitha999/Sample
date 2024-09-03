@@ -641,7 +641,7 @@ ${exception.stacktrace}</value>
             <bpmn2:incoming>SequenceFlow_43</bpmn2:incoming>
             <bpmn2:outgoing>SequenceFlow_12</bpmn2:outgoing>
         </bpmn2:callActivity>
-        <bpmn2:callActivity id="CallActivity_14" name="cXML Invoice to CSV Invoice Mapping">
+        <bpmn2:callActivity id="CallActivity_14" name="cXML Invoice to CSV Invoice Mapping in tenant">
             <bpmn2:extensionElements>
                 <ifl:property>
                     <key>mappingoutputformat</key>
