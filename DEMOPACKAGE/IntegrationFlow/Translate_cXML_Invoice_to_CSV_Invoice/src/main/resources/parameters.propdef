@@ -94,7 +94,7 @@
     </additionalMetadata>
   </parameter><parameter>
     <key/>
-    <name>handle_existing_files</name>
+    <name>type</name>
     <type>xsd:string</type>
     <isRequired>false</isRequired>
     <constraint/>
@@ -104,7 +104,7 @@
     </additionalMetadata>
   </parameter><parameter>
     <key/>
-    <name>type</name>
+    <name>handle_existing_files</name>
     <type>xsd:string</type>
     <isRequired>false</isRequired>
     <constraint/>

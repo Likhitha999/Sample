@@ -1,5 +1,5 @@
 #Store metainfo properties
-#Thu Aug 29 08:39:24 UTC 2024
+#Tue Sep 03 07:32:38 UTC 2024
 description=Fetches cXML invoices from SAP Business Network, maps them to CSV files and delivers them to an SFTP server.
 source=SAPBusinessNetwork
 target=ThirdParty

@@ -33,7 +33,7 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.sap
 Origin-Bundle-Name: Translate cXML Invoice to CSV Invoice
 SAP-RuntimeProfile: iflmap
 Bundle-Name: Translate cXML Invoice to CSV Invoice
-Bundle-Version: 1.0.33
+Bundle-Version: 1.0.34
 SAP-NodeType: IFLMAP
 Origin-ModifiedDate: 1723620513929
 SAP-BundleType: IntegrationFlow
