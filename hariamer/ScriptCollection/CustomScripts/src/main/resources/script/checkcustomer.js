@@ -12,6 +12,7 @@ function processData(message) {
     /*To set the body, you can use the following method. Refer SCRIPT APIs document for more detail*/
     //message.setBody(body + " modified from js");
     //Headers
+    //modified in git
     var headers = message.getHeaders();
     var value = headers.get("oldHeader");
     message.setHeader("oldHeader", value + " modified");
