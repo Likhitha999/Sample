@@ -209,7 +209,7 @@
             <bpmn2:incoming>SequenceFlow_89</bpmn2:incoming>
             <bpmn2:messageEventDefinition/>
         </bpmn2:endEvent>
-        <bpmn2:callActivity id="CallActivity_88" name="Content Modifier 1">
+        <bpmn2:callActivity id="CallActivity_88" name="Content Modifier">
             <bpmn2:extensionElements>
                 <ifl:property>
                     <key>bodyType</key>
@@ -243,7 +243,7 @@
             <bpmn2:incoming>SequenceFlow_91</bpmn2:incoming>
             <bpmn2:outgoing>SequenceFlow_89</bpmn2:outgoing>
         </bpmn2:callActivity>
-        <bpmn2:callActivity id="CallActivity_90" name="Find Discount from Mapping ">
+        <bpmn2:callActivity id="CallActivity_90" name="Find Discounts from Mapping ">
             <bpmn2:extensionElements>
                 <ifl:property>
                     <key>mappinguri</key>
