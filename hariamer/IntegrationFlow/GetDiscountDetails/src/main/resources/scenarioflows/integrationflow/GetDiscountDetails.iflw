@@ -243,7 +243,7 @@
             <bpmn2:incoming>SequenceFlow_91</bpmn2:incoming>
             <bpmn2:outgoing>SequenceFlow_89</bpmn2:outgoing>
         </bpmn2:callActivity>
-        <bpmn2:callActivity id="CallActivity_90" name="Find Discounts from Mapping ">
+        <bpmn2:callActivity id="CallActivity_90" name="Find Discounts from Mapping GIT ">
             <bpmn2:extensionElements>
                 <ifl:property>
                     <key>mappinguri</key>
